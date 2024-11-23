@@ -1,3 +1,7 @@
+* {
+	box-sizing: border-box;
+}
+
 body {
 	margin: 0;
 }
@@ -34,6 +38,28 @@ body {
 
 /*Main Content*/
 /*Footer*/
+.bottom-site {
+	background-color: grey;
+	padding: 50px 0 40px;
+	margin-top: 20px;
+	text-align: center;
+}
+
+.bottom-site a {
+	color: darkblue;
+	margin: 5px;
+	text-decoration: none;
+}
+
+.bottom-site a:hover {
+	color: #fff;
+}
+
+.copyright {
+	color: #eaf6f6;
+	font-size: 15px;
+	padding: 25px 0;
+}
 /*Clear Floats*/
 /*Media Queries*/
 @media screen and (max-width: 600px) {
