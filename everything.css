@@ -17,9 +17,10 @@ body {
 	display: block;
 	color: darkblue;
 	text-align: center;
-	padding: 14px 16px;
+	padding: 30px;
 	text-decoration: none;
 	font-size: 17px;
+	line-height: 1.5;
 }
 
 .navbar a:hover {
