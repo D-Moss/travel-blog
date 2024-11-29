@@ -1,95 +1,58 @@
-.vacation {
+.vacay {
 	background-color: #f1f1f1;
 }
 
-.navbar {
-	background-color: #222;
-	border-color: #080808;
-	position: relative;
-	min-height: 50px;
-	margin-bottom: 20px;
-	border: 1px solid transparent;
+.vacation {
+	padding: 20px;
 }
 
-.vacay-row {
-	padding: 0 20px;
+/*Center*/
+.main {
+	max-width: 1000px;
+	margin: auto;
 }
 
-.vacay-row:after {
+.row {
+	margin: 10px -16px;
+}
+
+/*Clear floats*/
+.row:after {
 	content: "";
 	display: table;
 	clear: both;
 }
 
-.vacay-card {
+/*Padding between columns*/
+.row,
+.row > .column {
+	padding: 8px;
+}
+
+/*Three equal float columns*/
+.column {
+	float: left;
+	width: 33.33%;
+}
+
+/*Content*/
+.content {
 	background-color: white;
-	padding: 20px;
+	padding: 10px;
 	margin-top: 20px;
 	border-radius: 10px;
 }
 
-.vacay-card h1 {
-	text-align: center;
-	margin-top: 0;
-}
-
-.vacay-card h3 {
+.content h3 {
 	text-align: center;
 }
 
-.vacay-right-col {
-	float: left;
-	width: 25%;
-	padding-right: 20px;
+.content p {
+	line-height: 1.25;
+	font-size: 16px;
 }
 
-.fakeimg1 {
-	margin-bottom: 50px;
-}
-
-.fakeimg1 img {
-	width: 100%;
-	height: auto;
-}
-
-.vacay-left-col {
-	float: left;
-	width: 75%;
-}
-
-
-
-
-
-
-
-.vacay-card-socials {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
-a.card-socials {
+.content a {
+	color: orange;
 	text-decoration: none;
-	color: red;
-	font-size: 20px;
-	letter-spacing: 20px;
-}
-
-.fakeimg {
-	background-color: #aaa;
-	width: 100%;
-	padding: 20px;
-}
-
-
-
-
-
-@media screen and (max-width: 800px) {
-	.vacay-left-col,
-	.vacay-right-col {
-		width: 100%;
-		padding: 0;
-	}
 }
